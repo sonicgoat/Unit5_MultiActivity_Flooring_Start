@@ -10,13 +10,13 @@ import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
-    EditText tvResults;
+    EditText Results;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        tvResults = (EditText) findViewById(R.id.tvResults);
+        Results = (EditText) findViewById(R.id.Results);
     }
 
     public void onClick (View v){
